@@ -1,0 +1,74 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #3894a3;
+}
+
+i {
+    position: relative; bottom: 100px;
+    padding: 5px;
+    background-color: #f1f1ef;
+    color: #2f414f;
+    font-size: 50px;
+    box-shadow: 0 5px 0 #2f414f;
+    border-radius: 5px;;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    position: relative; bottom: 70px;
+    color: #2f414f;
+    background-color: #f1f1ef;
+    box-shadow: 0 5px 0 #2f414f;
+    border-radius: 5px;
+}
+
+
+h1 {
+    text-transform: uppercase;
+}
+
+form {
+    position: relative; bottom: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; top: 10px;
+}
+
+input[type=number] {
+    margin: 10px 0;
+}
+
+input[type=text] {
+    margin: 10px 0;
+}
+
+input[type=checkbox] {
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    color: #2f414f;
+    height: 25px;
+    background-color: #c7dad4;
+    margin: 10px 0;
+    border: 1px solid #2f414f;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    box-shadow: 5px 5px #2f414f;
+}
