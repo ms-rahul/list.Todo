@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9a8f980acc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../misc/todo-list.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <a href="/"><i class="fa-solid fa-house"></i></a>
+    <table class="todo-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+    {{range .}}
+    <tbody>
+        <tr>
+            <td>{{.ID}}</td>
+            <td>{{.DESC}}</td>
+            <td>{{.STAT}}</td>
+        </tr>
+    </tbody>
+    {{end}}
+    </table>
+</body>
+</html>
+		
